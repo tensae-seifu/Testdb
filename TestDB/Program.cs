@@ -25,6 +25,7 @@ namespace TestDB
                 //sql internal objet that reads data from a table is called 
                 SqlDataReader reader =cmd.ExecuteReader(); 
                 
+
                 if(reader.HasRows) // 
                 
                 {
